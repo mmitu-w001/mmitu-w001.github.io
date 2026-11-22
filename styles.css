@@ -1,0 +1,669 @@
+
+/* ======================================================
+   MALIHA MEHNAZ MITU
+   PERSONAL ACADEMIC WEBSITE
+   Main Stylesheet
+   ====================================================== */
+
+
+/* ======================================================
+   1. GENERAL WEBSITE APPEARANCE
+   ====================================================== */
+
+body {
+  background-color: #FCFDFC;
+  color: #293D47;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+/* Keep text comfortable to read */
+
+p {
+  line-height: 1.75;
+}
+
+/* Links */
+
+main a {
+  color: #267A75;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #174F4C;
+  text-decoration: underline;
+}
+
+
+/* ======================================================
+   2. NAVIGATION BAR
+   ====================================================== */
+
+.navbar {
+  background-color: #183B4C !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: #FFFFFF !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #B9DDD3 !important;
+}
+
+/* Active navigation item */
+
+.navbar .nav-link.active {
+  color: #B9DDD3 !important;
+  font-weight: 600;
+}
+
+
+/* ======================================================
+   3. TYPOGRAPHY AND HEADINGS
+   ====================================================== */
+
+h1, h2, h3 {
+  color: #183B4C;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  letter-spacing: -0.8px;
+  line-height: 1.25;
+}
+
+#quarto-document-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #DDE7E3;
+}
+
+#quarto-document-content h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.8rem;
+  color: #365E58;
+}
+
+/* Section separators */
+
+#quarto-document-content hr {
+  border: none;
+  border-top: 1px solid #E2EAE6;
+  margin: 25px 0;
+}
+
+
+/* ======================================================
+   4. HOMEPAGE HERO SECTION
+   ====================================================== */
+
+.home-hero {
+  background: #F0F5F2;
+  border-radius: 16px;
+  padding: 42px;
+  margin: 20px 0 42px;
+}
+
+/* Two-column layout */
+
+.hero-layout {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.7fr)
+    minmax(0, 1fr);
+  gap: 35px;
+  align-items: center;
+}
+
+.hero-text,
+.hero-image {
+  min-width: 0;
+}
+
+/* Main introduction heading */
+
+#quarto-document-content .hero-text h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.45rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #183B4C;
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding-bottom: 0;
+  border: none;
+}
+
+/* Research introduction paragraphs */
+
+.hero-text p {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: #384E56;
+  margin-bottom: 14px;
+}
+
+.hero-text strong {
+  color: #183B4C;
+}
+
+
+/* ======================================================
+   5. PROFESSIONAL PHOTOGRAPH
+   ====================================================== */
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-image p {
+  margin: 0;
+}
+
+.hero-image .profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 14px;
+  box-shadow:
+    0 10px 30px rgba(24, 59, 76, 0.14);
+  margin: 0 auto;
+}
+
+
+/* ======================================================
+   6. PROFESSIONAL PROFILE LINKS
+   ====================================================== */
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.profile-links p {
+  margin: 0;
+}
+
+.profile-button {
+  display: inline-block;
+  padding: 9px 18px;
+  border: 1px solid #CADCD4;
+  border-radius: 30px;
+  background: #FFFFFF;
+  color: #315D58 !important;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.profile-button:hover {
+  background: #315D58;
+  border-color: #315D58;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+}
+
+
+/* ======================================================
+   7. HOMEPAGE RESEARCH HIGHLIGHTS
+   ====================================================== */
+
+.home-highlights {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 25px 0 45px;
+}
+
+.home-highlight {
+  background: #FFFFFF;
+  border: 1px solid #DBE7E1;
+  border-radius: 14px;
+  padding: 26px;
+  height: 100%;
+  box-shadow:
+    0 4px 16px rgba(24, 59, 76, 0.04);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-highlight:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 8px 22px rgba(24, 59, 76, 0.09);
+}
+
+#quarto-document-content .home-highlight h3 {
+  color: #183B4C;
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.home-highlight p {
+  font-size: 0.95rem;
+}
+
+.home-highlight a {
+  color: #267A75;
+  font-weight: 600;
+}
+
+
+/* ======================================================
+   8. RESEARCH PAGE INTRODUCTION
+   ====================================================== */
+
+.research-intro {
+  background: #F1F6F3;
+  border-left: 4px solid #658D83;
+  padding: 24px 28px;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+
+.research-intro p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ======================================================
+   9. COLLABORATIVE RESEARCH PROJECT CARDS
+   ====================================================== */
+
+.research-card {
+  background: #FFFFFF;
+  border: 1px solid #DDE8E3;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  box-shadow:
+    0 3px 12px rgba(24, 59, 76, 0.04);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 22px rgba(24, 59, 76, 0.09);
+}
+
+#quarto-document-content .research-card h3 {
+  font-size: 1.12rem;
+  color: #183B4C;
+  margin-top: 0;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.research-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.research-card strong {
+  color: #365E58;
+}
+
+.research-card p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ======================================================
+   10. PUBLICATIONS PAGE INTRODUCTION
+   ====================================================== */
+
+.publication-intro {
+  max-width: 850px;
+  padding: 14px 0 22px;
+  color: #526671;
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+
+/* ======================================================
+   11. FEATURED FIRST-AUTHOR PUBLICATION
+   ====================================================== */
+
+.featured-publication {
+  background: #F1F6F3;
+  border: 1px solid #D7E5DF;
+  border-left: 4px solid #658D83;
+  border-radius: 10px;
+  padding: 28px;
+  margin: 20px 0 32px;
+}
+
+#quarto-document-content .featured-publication h3 {
+  color: #183B4C;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.featured-publication p:first-child {
+  color: #507C79;
+  font-size: 0.78rem;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.featured-publication p {
+  line-height: 1.7;
+}
+
+.featured-publication a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #267A75;
+  font-weight: 600;
+}
+
+.featured-publication a:hover {
+  color: #174F4C;
+  text-decoration: underline;
+}
+
+
+/* ======================================================
+   12. OTHER PUBLICATIONS AND ABSTRACTS
+   ====================================================== */
+
+.publication-entry {
+  padding: 18px 0 22px;
+  border-bottom: 1px solid #E2EAE6;
+  margin-bottom: 8px;
+}
+
+.publication-entry p:first-child {
+  font-size: 1.08rem;
+  line-height: 1.5;
+  color: #183B4C;
+  margin-bottom: 12px;
+}
+
+.publication-entry p {
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.publication-entry em {
+  color: #64757A;
+}
+
+.publication-entry a {
+  color: #267A75;
+  font-weight: 600;
+}
+
+.publication-entry a:hover {
+  color: #174F4C;
+  text-decoration: underline;
+}
+
+
+/* ======================================================
+   13. INVITED TALK CARDS
+   ====================================================== */
+
+.talk-card {
+  background: #F1F6F3;
+  border: 1px solid #DDE8E3;
+  border-left: 4px solid #658D83;
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin: 20px 0;
+}
+
+.talk-card p:first-child {
+  color: #547C78;
+  font-size: 0.76rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#quarto-document-content .talk-card h3 {
+  font-size: 1.17rem;
+  color: #183B4C;
+  line-height: 1.45;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.talk-card p {
+  line-height: 1.7;
+}
+
+
+/* ======================================================
+   14. CONFERENCE PRESENTATIONS
+   ====================================================== */
+
+.presentation-entry {
+  border-bottom: 1px solid #E3EBE7;
+  padding: 14px 0 18px;
+  margin-bottom: 8px;
+}
+
+.presentation-entry p:first-child {
+  font-size: 1.04rem;
+  font-weight: 500;
+  color: #183B4C;
+}
+
+.presentation-entry em {
+  color: #547C78;
+  font-size: 0.9rem;
+}
+
+.presentation-entry p {
+  margin-bottom: 7px;
+}
+
+
+/* ======================================================
+   15. HONORS AND AWARDS
+   ====================================================== */
+
+.award-entry {
+  border-left: 2px solid #C9DCD4;
+  padding: 6px 0 9px 18px;
+  margin: 13px 0;
+}
+
+.award-entry p:first-child {
+  color: #183B4C;
+  font-size: 1.02rem;
+  margin-bottom: 5px;
+}
+
+.award-entry p:last-child {
+  color: #62717A;
+  font-size: 0.92rem;
+  margin-bottom: 0;
+}
+
+
+/* ======================================================
+   16. WEBSITE FOOTER
+   ====================================================== */
+
+.nav-footer {
+  margin-top: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #E2EAE6;
+  color: #64757A;
+  font-size: 0.87rem;
+}
+
+
+/* ======================================================
+   17. TABLET AND MOBILE SCREEN ADJUSTMENTS
+   ====================================================== */
+
+/* Tablet and smaller laptop screens */
+
+@media (max-width: 900px) {
+
+  .home-hero {
+    padding: 30px;
+  }
+
+  .hero-layout {
+    grid-template-columns:
+      minmax(0, 1.4fr)
+      minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .hero-image .profile-photo {
+    max-width: 230px;
+  }
+
+}
+
+/* Mobile phones */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-hero {
+    padding: 24px;
+    margin: 15px 0 30px;
+  }
+
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hero-image {
+    grid-row: 1;
+  }
+
+  .hero-image .profile-photo {
+    max-width: 210px;
+  }
+
+  #quarto-document-content .hero-text h2 {
+    font-size: 1.9rem;
+    margin-bottom: 16px;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .profile-links {
+    gap: 9px;
+  }
+
+  .profile-button {
+    padding: 8px 14px;
+    font-size: 0.82rem;
+  }
+
+  .home-highlights {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .home-highlight {
+    padding: 20px;
+  }
+
+  .research-intro {
+    padding: 20px;
+  }
+
+  .research-card {
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+
+  .featured-publication {
+    padding: 20px;
+  }
+
+  .talk-card {
+    padding: 18px;
+  }
+
+  .presentation-entry {
+    padding: 12px 0;
+  }
+
+  .award-entry {
+    padding-left: 13px;
+  }
+
+}
+
+/* Homepage final refinements */
+
+.hero-text p {
+  line-height: 1.65;
+  margin-bottom: 15px;
+}
+
+.home-hero {
+  padding: 34px;
+}
+
+.hero-image .profile-photo {
+  max-width: 255px;
+}
+
+/* Year labels on presentations page */
+
+.presentation-year {
+  color: #658D83;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+.presentation-year p {
+  margin: 0;
+}

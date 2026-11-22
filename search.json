@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research spans statistical methodology and collaborative clinical research. I am interested in how analytical decisions influence the predictors selected from complex healthcare data, and how statistical methods can be developed and applied to answer meaningful clinical questions.\nMy work combines simulation studies using synthetic data, real-world electronic health records (EHRs), and collaborations with researchers across clinical and public health disciplines."
+  },
+  {
+    "objectID": "research.html#methodological-research",
+    "href": "research.html#methodological-research",
+    "title": "Research",
+    "section": "Methodological Research",
+    "text": "Methodological Research\n\nInterpretable Machine Learning and Variable Selection\nDoctoral Dissertation Research\nAdvisor: Dr. Emily Slade | University of Kentucky\nMy doctoral research examines the reliability of interpretable machine learning approaches when clinical data contain missing information.\nI am currently evaluating the Feasible Solution Algorithm (FSA), investigating how different missing-data mechanisms, missing-data handling methods, outcome prevalences, and predictor structures influence variable selection stability and predictive performance.\nA particular focus of my work is understanding situations in which selected predictor sets change substantially even when predictive performance remains relatively similar. I also examine how correlated predictors and interaction-dominant signals influence the recovery of important predictors and their interactions.\nAlongside this work, I am exploring correlation-informed initialization and Bayesian-optimization-guided search strategies to improve the efficiency of variable selection. The objective is to investigate whether better-fitting and predictive models can be identified with fewer model evaluations.\nThese methodological questions are investigated through simulation studies and applications to real-world EHR datasets."
+  },
+  {
+    "objectID": "research.html#collaborative-biostatistics",
+    "href": "research.html#collaborative-biostatistics",
+    "title": "Research",
+    "section": "Collaborative Biostatistics",
+    "text": "Collaborative Biostatistics\n\nBiostat CIRCL\nGraduate Research Assistant\nUniversity of Kentucky\nMy work with the Biostatistics Consulting and Interdisciplinary Research Collaboration Lab (Biostat CIRCL) involves collaborating with clinicians and investigators at different stages of their research.\nA central part of my role is helping researchers translate clinical questions into research objectives that can be meaningfully addressed with their available data. This often involves discussing the study design, identifying appropriate outcomes and comparisons, assessing sample-size considerations, and determining which analytical approaches are feasible.\nMy involvement extends beyond the initial consultation. I work with research teams on statistical analysis, interpretation of findings, and preparation of results for conference abstracts, posters, and manuscripts.\nThe projects cover several clinical areas, each requiring a different approach to study planning and statistical decision-making.\n\n\nSelected Consulting Projects\n\n\n\n\nHuman–AI Agreement in Clinical Data Extraction\nA study investigating the agreement between human reviewers and large language models in identifying clinical findings from endoscopy reports.\nMy contribution: Developed sample-size recommendations to inform the study design and planned agreement assessment.\n\n\n\nFemur Fracture Rehabilitation\nA study examining whether muscle strength and physical performance at 12 months following femur fracture can predict functional recovery at 24 months.\nMy contribution: Conducted statistical analyses to investigate relationships between rehabilitation measures and longer-term outcomes, including patterns across patient subgroups.\n\n\n\n\n\n\nYoung Breast Cancer Cohort\nResearch examining clinical presentation, tumor characteristics, biomarker profiles, treatment patterns, and outcomes among young breast cancer patients.\nMy contribution: Evaluated the consistency of clinical staging, ER/PR/HER2 biomarkers, treatment and recurrence information; developed cohort summaries and helped identify directions for subsequent analyses.\n\n\n\nPediatric Urinary Tract Infection\nA retrospective study comparing treatment failure among pediatric patients treated with cefadroxil versus alternative oral antibiotics for urinary tract infections.\nMy contribution: Evaluated the available clinical data, clarified cohort and outcome definitions with investigators, and conducted preliminary analyses to support conference poster and manuscript development."
+  },
+  {
+    "objectID": "research.html#applied-clinical-research",
+    "href": "research.html#applied-clinical-research",
+    "title": "Research",
+    "section": "Applied Clinical Research",
+    "text": "Applied Clinical Research\n\nColorectal Cancer Screening Prediction\nAI/ML Hub | University of Kentucky\nPrincipal Investigator: Dr. Katherine Thompson\nThis project examines whether machine learning models can predict colorectal cancer screening uptake using EHR data from a regional medical center serving Appalachian communities in Kentucky and Ohio.\nMy work includes developing interpretable prediction models, evaluating alternative machine learning approaches, and examining how screening patterns differ across patient groups defined by healthcare utilization, smoking status, insurance coverage, and geographic characteristics.\nAn additional focus is exploring whether patterns within patient subgroups can inform more targeted screening outreach and help identify populations for whom existing prediction models perform differently.\n\n\nBedtime Technology Use and Sleep Health\nREST-KY Study\nPrincipal Investigator: Dr. Mairead Moloney, University of Miami\nThis research investigates how bedtime technology activities are associated with multidimensional sleep health among adults in rural Appalachia.\nI developed a composite sleep health score incorporating multiple dimensions of sleep and conducted sensitivity analyses using alternative established sleep health measures.\nUsing these measures, I evaluated associations between different bedtime technology behaviors, overall sleep health, and individual sleep domains.\nI have also contributed statistical analyses, data validation, and research outputs to additional collaborative studies examining social determinants and related sleep outcomes.\n\n\nEarly Prediction of Sepsis-Associated\n\n\nEncephalopathy\nIndependent Research Collaboration\nCollaborator: Dr. Humayera Islam, University of Chicago\nThis project focuses on developing early prediction models for sepsis-associated encephalopathy (SAE) among critically ill patients.\nUsing MIMIC-IV data extracted through Google BigQuery, I am working with longitudinal clinical information, including laboratory measurements, vital signs, and clinical assessments.\nThe research compares conventional statistical and machine learning models using static patient-level information with longitudinal approaches, including GRU-D, that account for temporal patterns and irregularly observed clinical measurements.\nI am also evaluating alternative SAE definitions through sensitivity analyses, with external validation using the eICU Collaborative Research Database planned as a subsequent step."
+  },
+  {
+    "objectID": "research.html#earlier-research",
+    "href": "research.html#earlier-research",
+    "title": "Research",
+    "section": "Earlier Research",
+    "text": "Earlier Research\n\nDigital Health Research in Bangladesh\nBRAC James P Grant School of Public Health, BRAC University\nBefore beginning my doctoral studies, I worked on mixed-methods research examining the experiences, needs, and challenges of digital health users in Bangladesh, particularly in accessing sexual and reproductive health services.\nMy contributions included research design, survey development, field coordination, statistical analyses, and dissemination through research reports, policy briefs, and manuscripts.\n\nView my publications"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations & Awards",
+    "section": "",
+    "text": "2026\n\n1. Machine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\nDoctoral Seminar Series, University of Kentucky, Lexington, Kentucky, USA.\nInvited Speaker | April 2026\n\n2. Machine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\nACTION Team Research Meeting, University of Kentucky, Lexington, Kentucky, USA.\nInvited Research Presentation | July, 2026\n\n3. From Electronic Health Record Data to Interpretable and Actionable Prediction Models\nBERD BITES Seminar Series, University of Kentucky Center for Clinical and Translational Science, Lexington, Kentucky, USA (Virtual).\nInvited Speaker | September, 2026"
+  },
+  {
+    "objectID": "presentations.html#invited-talks-and-seminars",
+    "href": "presentations.html#invited-talks-and-seminars",
+    "title": "Presentations & Awards",
+    "section": "",
+    "text": "2026\n\n1. Machine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\nDoctoral Seminar Series, University of Kentucky, Lexington, Kentucky, USA.\nInvited Speaker | April 2026\n\n2. Machine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\nACTION Team Research Meeting, University of Kentucky, Lexington, Kentucky, USA.\nInvited Research Presentation | July, 2026\n\n3. From Electronic Health Record Data to Interpretable and Actionable Prediction Models\nBERD BITES Seminar Series, University of Kentucky Center for Clinical and Translational Science, Lexington, Kentucky, USA (Virtual).\nInvited Speaker | September, 2026"
+  },
+  {
+    "objectID": "presentations.html#conference-presentations",
+    "href": "presentations.html#conference-presentations",
+    "title": "Presentations & Awards",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\n2026\n\nInterpretable Machine Learning-Based Variable Selection under Missing Data with the Feasible Solution Algorithm\nInternational Day of Women in Statistics and Data Science (IDWSDS).\nOral Presentation | October 2026\n\nMachine Learning-Based Variable Selection Under Missing Data with the Feasible Solution Algorithm\nJoint Statistical Meetings (JSM), Boston, Massachusetts.\nPoster Presentation | August 2026\n\nFeasible Solution Algorithm and Missing Data in Clinical Prediction\nAssociation of Clinical and Translational Statisticians (ACTStat) Annual Meeting, Boston, Massachusetts.\nStudent Award Presentation | August 2026\n\nMachine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\nTranslational Science 2026, Milwaukee, Wisconsin.\nSelected Oral Poster Presentation | April 2026\n\nMachine Learning Approaches to Predict Colorectal Cancer Screening Uptake in Real-World EHR Data\n21st Annual CCTS Spring Conference, University of Kentucky.\nOral Presentation | March 2026"
+  },
+  {
+    "objectID": "presentations.html#panel-discussions",
+    "href": "presentations.html#panel-discussions",
+    "title": "Presentations & Awards",
+    "section": "Panel Discussions",
+    "text": "Panel Discussions\nAdvancing Health in Kentucky through Precision Public Health in Practice\n21st Annual CCTS Spring Conference, University of Kentucky.\nPanelist | March 2026"
+  },
+  {
+    "objectID": "presentations.html#honors-and-awards",
+    "href": "presentations.html#honors-and-awards",
+    "title": "Presentations & Awards",
+    "section": "Honors and Awards",
+    "text": "Honors and Awards\n\n2026\n\nACTStat Student Award — Association of Clinical and Translational Statisticians (ACTStat), Boston, Massachusetts, USA.\nVasant P. Bhapkar Graduate Student Travel Award — Dr. Bing Zhang Department of Statistics, University of Kentucky, Lexington, Kentucky, USA.\nResearch Travel Award (Spring) — College of Public Health, University of Kentucky, Lexington, Kentucky, USA.\nResearch Travel Award (Summer) — College of Public Health, University of Kentucky, Lexington, Kentucky, USA.\nTop 50 Poster Selection — Translational Science 2026, Milwaukee, Wisconsin, USA.\nSecond Place Poster Award (Graduate & Professional Level) — 21st Annual CCTS Conference and College of Public Health Research Day, University of Kentucky, Lexington, Kentucky, USA.\n\n\n\n2024\n\nBest Teaching Fellow Award — BRAC James P Grant School of Public Health, BRAC University.\n\n\n\n2020\n\nNational Science and Technology Fellowship — Ministry of Science and Technology, Bangladesh."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#hello-im-maliha.",
+    "href": "index.html#hello-im-maliha.",
+    "title": "Maliha Mehnaz Mitu",
+    "section": "Hello, I’m Maliha.",
+    "text": "Hello, I’m Maliha.\nPh.D. Candidate in Epidemiology and Biostatistics\nUniversity of Kentucky | Lexington, Kentucky\nMy research focuses on interpretable machine learning, examining how missing-data mechanisms and analytical decisions influence predictor selection stability and predictive performance in electronic health records (EHRs).\nThrough simulation studies using synthetic data and applications to real-world EHRs, I investigate why selected predictor sets may differ even when predictive performance remains relatively similar.\nI also explore alternative optimization strategies to make variable selection more efficient and identify better-performing models with fewer evaluations."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Maliha Mehnaz Mitu",
+    "section": "About Me",
+    "text": "About Me\nI am a Ph.D. candidate in Epidemiology and Biostatistics at the University of Kentucky, where I work with Dr. Emily Slade.\nAlongside my methodological research, I work as a Graduate Research Assistant with the Biostatistics Consulting and Interdisciplinary Research Collaboration Lab (Biostat CIRCL).\nIn this role, I collaborate with clinicians across different specialties, helping translate clinical questions into research objectives that can be addressed with the available data. My involvement ranges from study design and statistical planning to analysis, interpretation, and preparation of research findings for scientific dissemination.\nMy collaborative research includes colorectal cancer screening, sleep health, oncology, and critical care.\nBefore joining the University of Kentucky, I worked as a Research Associate at the BRAC James P Grant School of Public Health in Bangladesh, contributing to digital health research and public health studies."
+  },
+  {
+    "objectID": "index.html#selected-publication",
+    "href": "index.html#selected-publication",
+    "title": "Maliha Mehnaz Mitu",
+    "section": "Selected Publication",
+    "text": "Selected Publication\nBedtime technology activities and multidimensional sleep health in rural Appalachian adults: Findings from the REST-KY study\nMitu, M. M., Chung, J., Slade, E., Moga, D. C., Grandner, M. A., & Moloney, M. E. (2026).\nSleep Health.\nRead the article"
+  },
+  {
+    "objectID": "index.html#explore-my-work",
+    "href": "index.html#explore-my-work",
+    "title": "Maliha Mehnaz Mitu",
+    "section": "Explore My Work",
+    "text": "Explore My Work\n\n\nMethodological Research\nDeveloping and evaluating interpretable variable selection methods under missing data, using simulation studies and real-world EHRs.\nExplore Methodological Research\n\n\nCollaborative Biostatistics\nWorking alongside clinicians to refine research questions, determine what their data can support, and guide studies from design through analysis and scientific dissemination.\nExplore Collaborative Research\n\nGoogle Scholar\nEmail Me"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My publications include research in clinical prediction, sleep health, and digital health, reflecting both methodological interests and contributions to interdisciplinary research collaborations."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
+    "title": "Publications",
+    "section": "Peer-Reviewed Journal Articles",
+    "text": "Peer-Reviewed Journal Articles\n\n2026\n\n\nFIRST-AUTHOR PUBLICATION · 2026\n\nBedtime technology activities and multidimensional sleep health in rural Appalachian adults: Findings from the REST-KY study\nMitu, M. M., Chung, J., Slade, E., Moga, D. C., Grandner, M. A., & Moloney, M. E. (2026).\nSleep Health.\nRead Publication\n\n\n\nSocial determinants of sleep health inequities among rural Appalachian adults\nMoloney, M. E., Slade, E., Chung, J., Mitu, M. M., Grandner, M. A., & Moga, D. C. (2026).\nJAMA Network Open, 9(4), e265908.\nRead Publication\n\n\nUnderstanding digital health needs: A qualitative study to explore urban and peri-urban user experiences and challenges in strengthening digital health services in Bangladesh\nKhan, S. M., Misha, F. A., Mitu, M. M., Alam, M. T., & Shesheir, M. H. (2026).\nBMC Digital Health, 4, 11.\nRead Publication"
+  },
+  {
+    "objectID": "publications.html#published-conference-abstracts",
+    "href": "publications.html#published-conference-abstracts",
+    "title": "Publications",
+    "section": "Published Conference Abstracts",
+    "text": "Published Conference Abstracts\n\n2026\n\nMachine learning approaches to predict colorectal cancer screening uptake in real-world EHR data\nMitu, M. M., Thompson, T., Slade, E., Salem, C., Sword, J., & Thompson, K. (2026).\nJournal of Clinical and Translational Science, 10(S1).\nRead Abstract\n\n\n0406. Bedtime technology use and sleep health among rural Appalachian adults: Findings from the REST-KY study\nMitu, M. M., Moga, D. C., Slade, E., Chung, J., Grandner, M. A., & Moloney, M. E. (2026).\nSLEEP, 49(Supplement 1), A181.\nRead Abstract\n\n\n0407. Night owls and nutrition: How insomnia mediates the chronotype-diet relationship in rural Appalachia\nGonzales, A., Slade, E., Moga, D. C., Chung, J., Mitu, M. M., Grandner, M. A., & Moloney, M. E. (2026).\nSLEEP, 49(Supplement 1), A181–A182.\nRead Abstract\n\n\n0156. The association of living alone with depression and insomnia among rural adults: A social support perspective\nChung, J., Slade, E., Moga, D. C., Mitu, M. M., Moloney, M. E., & Grandner, M. A. (2026).\nSLEEP, 49(Supplement 1), A68.\nRead Abstract\n\n\n1042. Social determinants of sleep health inequities among rural adults\nMoloney, M. E., Slade, E., Chung, J., Mitu, M. M., Grandner, M. A., & Moga, D. C. (2026).\nSLEEP, 49(Supplement 1), A464.\nRead Abstract"
+  },
+  {
+    "objectID": "publications.html#policy-briefs-and-research-communication",
+    "href": "publications.html#policy-briefs-and-research-communication",
+    "title": "Publications",
+    "section": "Policy Briefs and Research Communication",
+    "text": "Policy Briefs and Research Communication\n\n2023\n\nDriving Innovation: Advancing Healthcare through Digital Transformations in Bangladesh\nMitu, M. M., Khan, S. M., Shesheir, M. H., Alam, M. T., & Misha, F. (2023).\nPolicy Brief. BRAC James P Grant School of Public Health / CLEAR, Bangladesh.\nView Policy Brief\n\n\nEffective Digital Health Platform for Sexual and Reproductive Health and Rights (SRHR) Services: A Mixed-Methods Approach to Understanding User Experiences, Needs, and Rights in Bangladesh\nMitu, M. M., Khan, S. M., Shesheir, M. H., Alam, M. T., & Misha, F. (2023).\nResearch Infographic. BRAC James P Grant School of Public Health / CLEAR, Bangladesh.\nView Research Infographic"
+  },
+  {
+    "objectID": "publications.html#research-and-collaborations",
+    "href": "publications.html#research-and-collaborations",
+    "title": "Publications",
+    "section": "Research and Collaborations",
+    "text": "Research and Collaborations\nFor more information about the methodological and collaborative research behind these publications, visit my Research page."
+  }
+]
